@@ -1,0 +1,26 @@
+# ---- 构建产物 ----
+target/
+*.war
+*.class
+
+# ---- IDE ----
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# ---- 报告生成工具链（不属于交付工程，含 node_modules 与个人信息）----
+doc/
+
+# ---- 本地数据库配置：含真实密码，不入库；参考 db.properties.example ----
+src/main/resources/db.properties
+
+# ---- 运行时上传的用户图片 ----
+src/main/webapp/static/uploads/*
+!src/main/webapp/static/uploads/.gitkeep
+
+# ---- 系统文件 ----
+.DS_Store
+Thumbs.db
+*.log

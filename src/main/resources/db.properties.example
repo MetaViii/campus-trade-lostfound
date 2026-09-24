@@ -1,0 +1,7 @@
+# 数据库连接配置示例
+# 使用方式：把本文件复制为同目录下的 db.properties，然后将 jdbc.password 改成本机 MySQL 密码。
+# db.properties 已被 .gitignore 忽略，不会提交到仓库。
+jdbc.driver=com.mysql.cj.jdbc.Driver
+jdbc.url=jdbc:mysql://localhost:3306/campus_system?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
+jdbc.username=root
+jdbc.password=你的MySQL密码
