@@ -29,5 +29,7 @@
         <a href="${ctx}/admin/category/list" class="${adminActive=='category'?'active':''}">🏷️ 分类管理</a>
         <a href="${ctx}/admin/goods/list" class="${adminActive=='goods'?'active':''}">📦 商品管理</a>
         <a href="${ctx}/admin/lostfound/list" class="${adminActive=='lostfound'?'active':''}">🔍 失物招领</a>
+        <a href="${ctx}/admin/ai/config" class="${adminActive=='aiConfig'?'active':''}">🤖 AI 设置</a>
+        <a href="${ctx}/admin/ai/logs" class="${adminActive=='aiLogs'?'active':''}">💬 AI 对话记录</a>
     </aside>
     <main class="admin-main">

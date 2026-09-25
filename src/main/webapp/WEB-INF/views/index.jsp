@@ -13,8 +13,7 @@
         <button class="btn btn-accent" type="submit">🔍 搜索商品</button>
     </form>
     <div class="hero-actions">
-        <a class="btn" href="${ctx}/goods/publish">＋ 发布闲置</a>
-        <a class="btn" href="${ctx}/lostfound/publish">＋ 发布失物/招领</a>
+        <a class="btn" href="${ctx}/publish">＋ 发布信息</a>
         <a class="btn" href="${ctx}/lostfound/list">🔍 浏览失物招领</a>
     </div>
 </section>

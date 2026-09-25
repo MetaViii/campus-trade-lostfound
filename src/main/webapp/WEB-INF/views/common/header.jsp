@@ -14,11 +14,14 @@
     <div class="navbar-inner">
         <a class="brand" href="${ctx}/index"><span class="logo">校</span>校园易物</a>
         <div class="nav-links">
-            <a href="${ctx}/index" class="${active=='index'?'active':''}">首页</a>
-            <a href="${ctx}/goods/list" class="${active=='goods'?'active':''}">二手市场</a>
-            <a href="${ctx}/lostfound/list" class="${active=='lostfound'?'active':''}">失物招领</a>
-            <a href="${ctx}/goods/publish" class="${active=='publishGoods'?'active':''}">发布闲置</a>
-            <a href="${ctx}/lostfound/publish" class="${active=='publishLf'?'active':''}">发布招领</a>
+            <%-- 登录 / 注册等访客页面设 guestPage，不把系统有哪些功能暴露出去 --%>
+            <c:if test="${not guestPage}">
+                <a href="${ctx}/index" class="${active=='index'?'active':''}">首页</a>
+                <a href="${ctx}/goods/list" class="${active=='goods'?'active':''}">二手市场</a>
+                <a href="${ctx}/lostfound/list" class="${active=='lostfound'?'active':''}">失物招领</a>
+                <a href="${ctx}/ai/index" class="${active=='ai'?'active':''}">AI 匹配</a>
+                <a href="${ctx}/publish" class="${active=='publish'?'active':''}">发布</a>
+            </c:if>
         </div>
         <div class="nav-user">
             <c:choose>

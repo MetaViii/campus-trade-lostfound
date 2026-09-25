@@ -1,8 +1,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<c:set var="active" value="publishLf"/>
+<c:set var="active" value="publish"/>
 <c:set var="pageTitle" value="发布失物招领"/>
 <%@ include file="/WEB-INF/views/common/header.jsp" %>
+
+<p class="text-muted" style="font-size:13px;"><a href="${ctx}/publish">发布</a> / 发布招领</p>
 
 <div class="form-card">
     <h2 style="margin-top:0;">发布失物 / 招领信息</h2>
