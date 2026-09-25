@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><c:out value="${pageTitle}" default="校园二手交易与失物招领管理系统"/></title>
-    <link rel="stylesheet" href="${ctx}/static/css/main.css">
+    <link rel="stylesheet" href="${ctx}/static/css/main.css?v=20260925">
 </head>
 <body>
 <nav class="navbar">

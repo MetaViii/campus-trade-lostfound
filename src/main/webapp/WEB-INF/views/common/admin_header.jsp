@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><c:out value="${pageTitle}" default="后台管理"/> - 校园易物</title>
-    <link rel="stylesheet" href="${ctx}/static/css/main.css">
+    <link rel="stylesheet" href="${ctx}/static/css/main.css?v=20260925">
 </head>
 <body>
 <nav class="navbar">
